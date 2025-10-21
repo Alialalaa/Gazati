@@ -1,0 +1,101 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://i.guim.co.uk/img/media/1693f08a3fe21f4c48f33f83f408b6311e029aef/0_62_4649_2791/master/4649.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=e8424059e84f0fd018b76ed08ac5c577");
+    
+}
+
+img {
+    width: 100px;
+}
+.hero{
+    background-image: url("https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRlIahzETqNtOyz2AnJZb9abQWsjqGKjqcDByiAoddzJZUPg0HpkMv7lJVASnjuEkvxf_g5gObQ-3U-7iKP-ayLFLsssL8JpkxIdesAUw");
+    width: 700px;
+    height:300px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #41372C;
+   
+    border-radius: 10px;
+
+}
+#her{
+    background-color: rgba(65, 55, 44,50%);
+    width:200px ;
+    text-align: center;
+     text-shadow: 0px 0px 8px #F2E3C8;
+}
+#here{
+    background-color: rgba(65, 55, 44,50%);
+    width:400px ;
+    text-align: center;
+    text-shadow: 0px 0px 8px #F2E3C8;
+}
+
+#here:hover,#her:hover{
+    text-shadow:1px 1px 8px #da490f;
+}
+
+.act{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height:300px;
+    background-color: #B39D83;
+    border-radius: 10px;
+
+}
+.actnum{
+    margin: 10px;
+    width: 233px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+   
+}
+#actp{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.gid{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height:300px;
+    background-color: #F2E3C8;
+    border-radius: 10px;
+    
+
+}
+.gidinfo{
+    text-align: center;
+    width: 300px;
+    margin: 20px 20px;
+    background-color: rgba(179, 157, 131,30%);
+    border-radius: 10px;
+}
+#gidimg{
+    width: 320px;
+    margin: 20px;
+    border-radius: 10px;
+}
